@@ -15,7 +15,7 @@ version: 1.0.0
 date-released: 2026-07-31
 abstract: "Code and evaluation artifacts for lightweight spatial-temporal deepfake detection with video-first splitting."
 license: MIT
-repository-code: "https://github.com/Aurpo-001/Spatiotemporal-Deepfake-Detection"
+repository-code: "https://github.com/Aurpo-001/Seeing-Beyond-the-Fake-Detecting-Deepfakes-Using-Deep-Learning-Based-Computer-Vision"
 preferred-citation:
   type: thesis
   title: "Seeing Beyond the Fake: Detecting Deepfakes Using Deep Learning-Based Computer Vision"

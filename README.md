@@ -99,8 +99,8 @@ Additional confusion matrices and ROC curves are available under [`docs/figures`
 The full dataset and trained model weights are intentionally not distributed here.
 
 ```bash
-git clone https://github.com/Aurpo-001/Spatiotemporal-Deepfake-Detection.git
-cd Spatiotemporal-Deepfake-Detection
+git clone https://github.com/Aurpo-001/Seeing-Beyond-the-Fake-Detecting-Deepfakes-Using-Deep-Learning-Based-Computer-Vision.git
+cd Seeing-Beyond-the-Fake-Detecting-Deepfakes-Using-Deep-Learning-Based-Computer-Vision
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
