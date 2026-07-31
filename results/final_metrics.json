@@ -1,0 +1,37 @@
+{
+  "dataset": "FaceForensics++ C23",
+  "split_protocol": "video-first 70/20/10",
+  "class_order": ["fake", "real"],
+  "models": [
+    {
+      "name": "Custom CNN",
+      "level": "frame",
+      "test_samples": 6400,
+      "accuracy": 0.9006,
+      "auc": 0.9644,
+      "confusion_matrix": [[2823, 377], [259, 2941]]
+    },
+    {
+      "name": "CNN-BiLSTM temporal branch",
+      "level": "video",
+      "test_samples": 200,
+      "accuracy": 0.92,
+      "precision": 0.8962,
+      "recall": 0.95,
+      "f1": 0.9223,
+      "auc": 0.9645,
+      "confusion_matrix": [[89, 11], [5, 95]]
+    },
+    {
+      "name": "Spatial-temporal fusion",
+      "level": "video",
+      "test_samples": 200,
+      "accuracy": 0.935,
+      "precision": 0.9143,
+      "recall": 0.96,
+      "f1": 0.9366,
+      "auc": 0.9799,
+      "confusion_matrix": [[91, 9], [4, 96]]
+    }
+  ]
+}

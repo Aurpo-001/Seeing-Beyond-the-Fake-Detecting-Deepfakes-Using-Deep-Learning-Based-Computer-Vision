@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the accompanying thesis."
+title: "Spatiotemporal Deepfake Detection Research Artifact"
+type: software
+authors:
+  - family-names: "Aurpo"
+    given-names: "Tanvir Bashar"
+  - family-names: "Aabdee"
+    given-names: "Syed Aiman"
+  - family-names: "Alam"
+    given-names: "Sifat"
+  - family-names: "Twinkle"
+    given-names: "Arobi Alamin"
+version: 1.0.0
+date-released: 2026-07-31
+abstract: "Code and evaluation artifacts for lightweight spatial-temporal deepfake detection with video-first splitting."
+license: MIT
+repository-code: "https://github.com/Aurpo-001/Spatiotemporal-Deepfake-Detection"
+preferred-citation:
+  type: thesis
+  title: "Seeing Beyond the Fake: Detecting Deepfakes Using Deep Learning-Based Computer Vision"
+  authors:
+    - family-names: "Aurpo"
+      given-names: "Tanvir Bashar"
+    - family-names: "Aabdee"
+      given-names: "Syed Aiman"
+    - family-names: "Alam"
+      given-names: "Sifat"
+    - family-names: "Twinkle"
+      given-names: "Arobi Alamin"
+  year: 2026
+  publisher:
+    name: "Department of Computer Science and Engineering, Brac University"
