@@ -6,8 +6,12 @@
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.21-ee7f22?logo=tensorflow&logoColor=white)](https://www.tensorflow.org/)
 [![Dataset](https://img.shields.io/badge/Dataset-FaceForensics%2B%2B_C23-5b4b8a)](https://github.com/ondyari/FaceForensics)
 [![License: MIT](https://img.shields.io/badge/Code-MIT-2f6f62.svg)](LICENSE)
+[![Thesis](https://img.shields.io/badge/Thesis-Full_text-7a4b2e)](papers/seeing-beyond-the-fake-undergraduate-thesis.pdf)
+[![IEEE CSDE 2026](https://img.shields.io/badge/IEEE_CSDE_2026-Accepted-9b1c31)](papers/seeing-beyond-the-fake-ieee-csde-2026-accepted-paper.pdf)
 
 This repository accompanies the undergraduate thesis **“Seeing Beyond the Fake: Detecting Deepfakes Using Deep Learning-Based Computer Vision.”** The study asks whether a compact, purpose-built model can combine facial artifacts and temporal inconsistencies to detect manipulated videos without relying on a heavyweight pretrained backbone.
+
+**Navigate:** [Research papers](papers/README.md) · [Reproducibility guide](docs/REPRODUCIBILITY.md) · [Model card](docs/MODEL_CARD.md) · [Dataset notes](docs/DATASET.md) · [Results](results/)
 
 ![Final model comparison](docs/figures/model-comparison.png)
 
@@ -72,6 +76,17 @@ The scratch-built CNN combines standard and depthwise-separable convolution bloc
 
 Additional confusion matrices and ROC curves are available under [`docs/figures`](docs/figures).
 
+## Publications
+
+The complete research documents are available in the [`papers/`](papers/) directory.
+
+| Document | Status | Access |
+| --- | --- | --- |
+| Undergraduate thesis | Accepted by Brac University, June 2026 | [Read the full thesis](papers/seeing-beyond-the-fake-undergraduate-thesis.pdf) |
+| IEEE conference paper | Accepted at the 11th IEEE Asia-Pacific Conference on Computer Science and Data Engineering (IEEE CSDE 2026); official publication and DOI pending | [Read the accepted paper](papers/seeing-beyond-the-fake-ieee-csde-2026-accepted-paper.pdf) |
+
+See the [publication guide](papers/README.md) for authorship, citation templates, publication status, and document-rights information. Once the IEEE Xplore record becomes available, its DOI and canonical link should be added there.
+
 ## Repository structure
 
 ```text
@@ -85,6 +100,10 @@ Additional confusion matrices and ROC curves are available under [`docs/figures`
 ├── results/
 │   ├── final_metrics.json
 │   └── final_video_confusion_matrices.csv
+├── papers/
+│   ├── README.md
+│   ├── seeing-beyond-the-fake-undergraduate-thesis.pdf
+│   └── seeing-beyond-the-fake-ieee-csde-2026-accepted-paper.pdf
 ├── docs/
 │   ├── DATASET.md
 │   ├── MODEL_CARD.md
@@ -153,8 +172,8 @@ Department of Computer Science and Engineering, Brac University, 2026
 
 ## Citation
 
-Citation metadata is available in [`CITATION.cff`](CITATION.cff). If this repository supports your work, cite the thesis and clearly distinguish reproduced results from new experiments.
+Citation metadata is available in [`CITATION.cff`](CITATION.cff). Ready-to-copy thesis and conference-paper citations are provided in the [publication guide](papers/README.md). Until the IEEE version receives its DOI and final bibliographic record, describe it as an accepted paper with publication forthcoming.
 
 ## License
 
-Repository code is released under the [MIT License](LICENSE). FaceForensics++ and any external data remain subject to their own access terms and licenses.
+Repository code is released under the [MIT License](LICENSE). The thesis, conference paper, FaceForensics++, and external data are not covered by the software license and retain their respective rights and access terms.
